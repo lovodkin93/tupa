@@ -1,0 +1,5 @@
+devscores: bert_multilingual_layers_4_layers_pooling_weighed_align_sum_3.dev.csv
+hyperparams: [shared --lstm-layers 2 --lstm-layer-dim 500 --embedding-layers 1 --embedding-layer-dim 500 --max-length 120 --rnn lstm --activation relu --init glorot_uniform --dropout 0.4, amr --max-edge-labels 110 --node-label-dim 20 --max-node-labels 1000 --node-category-dim 5 --max-node-categories 25, sdp --max-edge-labels 70, conllu --max-edge-labels 60]
+iterations: [50, 100 --optimizer amsgrad]
+log: bert_multilingual_layers_4_layers_pooling_weighed_align_sum_3.log
+optimizer: amsgrad

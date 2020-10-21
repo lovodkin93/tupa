@@ -238,8 +238,11 @@ def load_json(filename):
     :param filename: file to read from
     """
     print("Loading from '%s'." % filename)
+    # full_path = "/cs/labs/oabend/lovodkin93/TUPA1_project/tupa/tupa/" + filename #FIXME: delete these three lines and return old version
+    # with open(full_path, "r") as h:
+    #     d = json.load(h)
     with open(filename, "r") as h:
-        d = json.load(h)
+       d = json.load(h)
     return d
 
 
